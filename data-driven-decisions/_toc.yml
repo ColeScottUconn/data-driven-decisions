@@ -1,0 +1,29 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+format: jb-book
+root: README
+chapters:
+- file: syllabus
+- file: module_00/README
+  sections:
+    - file: module_00/01_writing-w-llms.ipynb
+    - file: module_00/HW_00
+    - file: module_00/HW_01
+- file: module_01/README
+  sections:
+    - file: module_01/calculate_pi
+    - file: module_01/HW_02
+    - file: module_01/statistical_significance
+    - file: module_01/HW_03
+- file: module_02/README
+  sections:
+    - file: module_02/random_games
+    - file: module_02/bus_wait
+    - file: module_02/dice_game
+- file: module_03/README
+  sections:
+    - file: module_03/challenger
+- file: module_04/README
+  sections:
+    - file: module_04/report
